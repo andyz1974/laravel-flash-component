@@ -4,5 +4,7 @@ Default type is succes. If you want to change it to "error" or "info" you must a
 
 Examples: 
 ``<x-admin.alerts.flash timeout=3 />`` //shows a success message for 3 seconds
+
 ``<x-admin.alerts.flash type="error" timeout=1 />`` //shows an error message for 1 second
+
 ``<x-admin.alerts.flash type="info" />`` //shows an info message until you press x to close it
